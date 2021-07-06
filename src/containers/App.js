@@ -6,11 +6,8 @@ import Widgets from "./Widgets/Widgets";
 function App() {
   return (
     <div className="app">
-      {/* Side Bar */}
       <Sidebar />
-      {/* Feed */}
       <Feed />
-      {/* Widgets */}
       <Widgets />
     </div>
   );
